@@ -1,0 +1,184 @@
+h1,h2,p,li{
+font-family: 'Roboto Slab', serif;
+font-weight: 200;
+
+
+}
+
+
+.slideRight {
+  animation-name: slideUp;
+  -webkit-animation-name: slideUp;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  visibility: visible;
+}
+
+
+a{
+    letter-spacing: 4px;
+
+}
+
+
+
+.active{
+	border: solid 1px white;
+}
+
+.center{
+	margin: 0 auto;
+	display: block;
+}
+
+#hero_section{
+	width: 100%;
+	height: 90vh;
+	background:linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)),url("../imgs/steak.jpeg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+@media only screen and (max-height: 500px){
+	#hero_section{
+		min-height: 500px;
+	}
+	.big_pic,.small_pic{
+		min-height: 400px
+	}
+}
+
+#main_header{
+	color: white;
+	font-size:50px;
+	position: relative;
+}
+
+@media only screen and (min-height:611px){
+	#header_row{
+		position: relative;
+    top: 9em;
+	}
+}
+
+button{
+	padding: 10px;
+    width: 12em;
+    font-size: 13px;
+    background: #ffffffcc;
+}
+
+#menu_link{
+	color: #e9ecef;
+    background-color: transparent;
+}
+
+
+
+#about_section{
+	width: 100%;
+	padding: 2em;
+}
+
+#about_p{
+	margin-top: 2em;
+	font-size: 30px;
+	color: black;
+}
+
+#about_col{
+	margin: auto;
+	min-width: 60%;
+}
+
+#favorites{
+	width: 100%;
+	background-color: #14191c;
+}
+
+#favorites{
+	color: white;
+}
+
+#favorites,p{
+	font-size: 16px;
+}
+#fav_h2{
+	padding-top: 1em;
+}
+
+.fav_row{
+	justify-content: space-around;
+}
+
+.fav_col{
+	padding-top: 3em;
+	padding-bottom: 3em;
+	min-width: 300px;
+}
+
+#nav_primary{
+	height: 7vh;
+	background-color: transparent;
+	margin-bottom: 2em;
+}
+
+#nav_secondary{
+background-color: black;
+}
+
+#nav_catering{
+	background-color:#0000004f;
+
+}
+
+.nav-link{
+	color: white;
+    margin: .5em;
+    font-weight: 200;
+}
+
+
+.col-no-pad{
+	padding:0;
+}
+
+.big_pic{
+	height: 80vh;
+	width: 100%;
+	padding:5px;
+}
+.small_pic{
+	height: 40vh;
+	width: 100%;
+	padding:5px;
+}
+@media only screen and (max-width:457px){
+	.small_pic, .big_pic{
+		height: 40vh;
+	}
+}
+@media only screen and (max-width:767px) and (min-width:458px){
+	.small_pic, .big_pic{
+		height: 80vh;
+	}
+}
+
+
+.btn-col{
+    justify-content: center;
+    display: flex;
+    flex-flow: column;
+}
+
+#catering_section{
+	padding: 2em;
+}
+
+#footer_section{
+	width: 100%;
+	height: 20vh;
+	background-color: black;
+	margin-top: 2em;
+}
+

@@ -1,0 +1,64 @@
+#catering_section_page {
+    background: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)), url('https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#catering_section_page input{
+    width: 100%;
+}
+
+#hidden{
+    display: none;
+}
+
+@media only screen and (max-width:770){
+     #cat_hero_img{
+        display: none;
+    }
+    
+}
+
+/* #catering_row {
+    position: relative;
+    top: 6em;
+} */
+
+#form_card {
+    margin: 0 auto;
+    max-width: 450px;
+    display: flex;
+    flex-flow: column;
+    padding: 20px;
+}
+
+#form_card,
+h3 {
+    color: white;
+}
+
+@media only screen and (max-height:900px) and (max-width:759px){
+    /* remove relative position with query */
+}
+
+.card_head {
+    border-bottom: solid 1px white;
+}
+
+
+input {
+    background: #2b2b2b;
+    border: white solid 1px;
+}
+
+#catering_container{
+    padding: 6em;
+}
+
+.icon_container{
+}
+
+.form-group{
+    text-align: left;
+}
