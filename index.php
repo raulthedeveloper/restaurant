@@ -1,4 +1,12 @@
 <?php $page = 'primary'; ?>
+<?php include 'functions/fetch_data.php'?>
+<?php 
+
+$restaurant_json = file_get_contents('database/api.json');
+
+$json = json_decode($restaurant_json,true);
+
+?>
 
 <?php include 'includes/header.php' ?>
 <?php include 'functions/menu_generator.php' ?>
@@ -34,7 +42,7 @@
 </section>
 
 <section id="favorites">
-  <div class="container" style="padding-bottom: 2em;">
+  <div class="container pb-5">
     <h2 id="fav_h2"><em>Our Top Dishes-</em></h2>
     <div class="row fav_row">
       <div class="col-md-4 fav_col">
@@ -54,9 +62,9 @@
 
     </div>
 
-    <div class="row fav_row">
+
       
-      <?php genTopDish(); ?>
+    
 
     
 
@@ -85,31 +93,31 @@
   <div class="container-fluid " id="img_container">
     <div class="row">
       <div class="col-md-8 col-no-pad">
-        <img class="big_pic" src="https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+        <img class="big_pic fluid-img" src="https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
       </div>
       <div class="col-md-4 col-no-pad">
-        <img class="small_pic" src="https://images.pexels.com/photos/5938/food-salad-healthy-lunch.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
-        <img class="small_pic" src="https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+        <img class="small_pic fluid-img" src="https://images.pexels.com/photos/5938/food-salad-healthy-lunch.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+        <img class="small_pic fluid-img" src="https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
       </div>
     </div>
 
     <div class="row">
       <div class="col-md-4 col-no-pad">
 
-        <img class="small_pic" src="https://images.pexels.com/photos/5938/food-salad-healthy-lunch.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
-        <img class="small_pic" src="https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+        <img class="small_pic fluid-img" src="https://images.pexels.com/photos/5938/food-salad-healthy-lunch.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+        <img class="small_pic fluid-img" src="https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
 
 
       </div>
       <div class="col-md-8 col-no-pad">
-        <img class="big_pic" src="https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+        <img class="big_pic fluid-img" src="https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
       </div>
     </div>
 
     <div class="row">
       <div class="col-md-6 col-no-pad">
-        <img class="big_pic" src="https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"></div>
-      <div class="col-md-6 col-no-pad"><img class="big_pic" src="https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"></div>
+        <img class="big_pic fluid-img" src="https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"></div>
+      <div class="col-md-6 col-no-pad"><img class="big_pic fluid-img" src="https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"></div>
     </div>
 
   </div>

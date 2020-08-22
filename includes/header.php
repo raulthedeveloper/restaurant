@@ -13,9 +13,6 @@
     
     
     <link rel="stylesheet" type="text/css" href="<?php if($page == 'secondary'){echo '../';}  ?>styles/style.css">
-    <link rel="stylesheet" type="text/css" href="<?php if($page == 'secondary'){echo '../';} ?>styles/reservation.css">
-    <link rel="stylesheet" href="<?php if($page == 'secondary'){echo '../';} ?>styles/catering_style.css">
-    <link rel="stylesheet" href="<?php if($page == 'secondary'){echo '../';} ?>styles/Footer-Dark.css">
 
 <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:200,400&display=swap" rel="stylesheet">
     <title>El Restaurante</title>
