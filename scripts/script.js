@@ -1,28 +1,11 @@
 
 
-//$(window).scroll(function () {
-//    if ($(window).scrollTop() > 0) {
-//        $('.fav_col').css({'opacity':'0','position':'relative','top':'400px'}).animate({opacity:'1','top':'0'},1000);
-//        
-//        
-// 
-//
-//    } else {
-//        console.log('else statement')
-//    }
-//});
-//
-//$('catering_section').scroll(function(){
-//    if(this.scrollTop() > 0){
-//        $(this).css('opacity','0').animate({opacity:'1'},3000);
-//        console.log('hey you ')
-//
-//    }
-//})
-//
-//var scrolled = window.innerHeight
-//
-//console.log(scrolled)
+  AOS.init({
+    once:true,
+    duration:1000
+  });
+
+
 
 $(window).on("load",function() {
   $(window).scroll(function() {

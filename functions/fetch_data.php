@@ -21,9 +21,19 @@ function getMeal($meals){
     
 }
 
-function topDishes(){
+function topDishes($meals){
     global $restaurant_json;
     global $json;
+
+    $output = '<div class="row fav_row">';
+    foreach($json['entries'][$meals] as $meal){
+      $output .='<div class="col-md-6 p-5">';
+      $output .= '<h4 class="mb-3">' . $meal['name'] . "</h4>";
+      $output .= '<p>' . $meal['description'] . '</p>';
+      $output .= '</div>';
+    }
+    $output .= "</div>";  
+    echo $output;  
 }
 
 

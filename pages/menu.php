@@ -1,5 +1,8 @@
 
-<?php $page = 'secondary'; ?>
+<?php 
+$page = 'secondary'; 
+$title = 'Menu';
+?>
 
 
 <?php include '../includes/header.php'; ?>
@@ -8,13 +11,14 @@
 
 <?php include '../functions/fetch_data.php' ?>
 
+<?php include '../includes/secondary_header.php' ?>
+
 
 <div class="container main-content">
 
-<?php include '../functions/menu_generator.php' ;?>
 
-<section id="breakfast_section">
- <h2 class="text-center text-dark">Breakfast</h2>
+<section id="breakfast_section" data-aos="fade-up">
+ <h2 class="text-center text-dark display-4 mt-4">Breakfast</h2>
  <hr>
 
 <?php getMeal('Breakfast'); ?>
@@ -22,8 +26,8 @@
 
 </section>
 
-<section id="lunch_section">
- <h2 class="text-center text-dark">Lunch</h2>
+<section id="lunch_section" data-aos="fade-up">
+ <h2 class="text-center text-dark display-4 mt-4">Lunch</h2>
  <hr>
 
  <?php getMeal('Lunch'); ?>
@@ -31,8 +35,8 @@
  
 </section>
 
-<section id="dinner_section">
- <h2 class="text-center text-dark">Dinner</h2>
+<section id="dinner_section" data-aos="fade-up">
+ <h2 class="text-center text-dark display-4 mt-4">Dinner</h2>
  <hr>
 
  <?php getMeal('Dinner'); ?>

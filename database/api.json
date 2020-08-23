@@ -4,28 +4,31 @@
   "description": "Seafood.",
   "name": "El Restuarate",
   "entries": {
-    "count": 14,
 
     "Breakfast":[
       {
         "price":"$10.40",
         "name": "BUTTER MILK FLAPJACKS",
-        "description": "Two flapjacks served with molasses and our signature sassafras-infused whipped cream."
+        "description": "Two flapjacks served with molasses and our signature sassafras-infused whipped cream.",
+        "image":"../img/menu_imgs/pancakes.jpeg"
       },
       {
         "price":"$10.40",
         "name": "GRANNY’S",
-        "description": "Filled with diced grilled ham, onions, green peppers, American cheese, cheese sauce and crispy hash browns. Topped with all of the same!"
+        "description": "Filled with diced grilled ham, onions, green peppers, American cheese, cheese sauce and crispy hash browns. Topped with all of the same!",
+        "image":"../img/menu_imgs/Granny's.jpg"
       },
       {
         "price":"$10.40",
         "name": "THE EVERYTHING ",
-        "description": "Diced grilled ham, crimini mushrooms, tomatoes, onions, green peppers and American cheese – this classic omelet has it all!"
+        "description": "Diced grilled ham, crimini mushrooms, tomatoes, onions, green peppers and American cheese – this classic omelet has it all!",
+        "image":"../img/menu_imgs/the_everything.jpeg"
       },
       {
         "price":"$10.40",
         "name": "TURKEY SAUSAGE ",
-        "description": "An egg white omelet filled with turkey sausage, crimini mushrooms, green bell peppers, onions, diced tomatoes, and Swiss cheese. Served with fresh fruit and dry whole wheat toast. No sides"
+        "description": "An egg white omelet filled with turkey sausage, crimini mushrooms, green bell peppers, onions, diced tomatoes, and Swiss cheese. Served with fresh fruit and dry whole wheat toast. No sides",
+        "image":"../img/menu_imgs/turkey_sausage.jpeg"
       }
     ],
 
@@ -33,22 +36,26 @@
       {
         "price":"$10.40",
         "name": "PIZZA ",
-        "description": "A large disc of dough, covered with tomato paste, then either only grated cheese or pieces of mozzarella cheese, or other toppings like chopped vegetables, sausages, salami, etc. and cheese, which is then baked together in a very hot oven, then cut into slices so that one can eat it conveniently by taking one wedge-shaped slice at a time."
+        "description": "A large disc of dough, covered with tomato paste, then either only grated cheese or pieces of mozzarella cheese, or other toppings like chopped vegetables, sausages, salami, etc. and cheese, which is then baked together in a very hot oven, then cut into slices so that one can eat it conveniently by taking one wedge-shaped slice at a time.",
+        "image":"../img/menu_imgs/pizza.jpeg"
       },
       {
         "price":"$10.40",
         "name": "CORNED BEEF SANDWICH",
-        "description": "This sandwich is like a cousin to the reuben. It's a cold sandwich of corned beef, topped with Russian dressing and coleslaw, on Jewish ry"
+        "description": "This sandwich is like a cousin to the reuben. It's a cold sandwich of corned beef, topped with Russian dressing and coleslaw, on Jewish ry",
+        "image":"../img/menu_imgs/corned_beef.jpg"
       },
       {
         "price":"$10.40",
         "name": "CHICKEN SOUP",
-        "description": "This Feel Better Chicken Soup with Lemon and Ginger will warm you to your bones! Brothy and flavorful with sauteing onion, garlic and ginger until tender and fragrant and golden."
+        "description": "This Feel Better Chicken Soup with Lemon and Ginger will warm you to your bones! Brothy and flavorful with sauteing onion, garlic and ginger until tender and fragrant and golden.",
+        "image":"../img/menu_imgs/chicken_soup.jpg"
       },
       {
         "price":"$10.40",
         "name": "Cheeseburger",
-        "description": " hamburger topped with cheese. Traditionally, the slice of cheese is placed on top of the meat patty, but the burger can include variations in structure, ingredients and composition. The cheese is usually added to the cooking hamburger patty shortly before serving, which allows the cheese to melt."
+        "description": " hamburger topped with cheese. Traditionally, the slice of cheese is placed on top of the meat patty, but the burger can include variations in structure, ingredients and composition. The cheese is usually added to the cooking hamburger patty shortly before serving, which allows the cheese to melt.",
+        "image":"../img/menu_imgs/cheeseburger.jpeg"
       }
     ],
 
@@ -56,24 +63,55 @@
       {
         "price":"$10.40",
         "name": "BISON PRIME RIBS ",
-        "description": "10 oz. prime rib with red wine reduction. Served with asparagus, heirloom tomatoes, and roasted potatoes."
+        "description": "10 oz. prime rib with red wine reduction. Served with asparagus, heirloom tomatoes, and roasted potatoes.",
+        "image":"../img/menu_imgs/bison_ribs.jpeg"
       },
       {
         "price":"$10.40",
         "name": "FT. WORTH RIBEYE",
-        "description": "Very juicy and flavorful due to the marbling throughout the steak. Served with your choice of two sides. All sizes may not be available at all locations. 10 oz. / 12 oz. / 16 oz. portions"
+        "description": "Very juicy and flavorful due to the marbling throughout the steak. Served with your choice of two sides. All sizes may not be available at all locations. 10 oz. / 12 oz. / 16 oz. portions",
+        "image":"../img/menu_imgs/steak.jpeg"
       },
       {
         "price":"$10.40",
         "name": "STEAK KABOB",
-        "description": "Marinated steak with onion, mushroom, tomato, red pepper and green pepper served on a bed of seasoned rice with your choice of one side."
+        "description": "Marinated steak with onion, mushroom, tomato, red pepper and green pepper served on a bed of seasoned rice with your choice of one side.",
+        "image":"../img/menu_imgs/kabob.jpeg"
       },
       {
         "price":"$10.40",
         "name": "COUNTRY VEG PLATE",
-        "description": "Choose a total of 4 side items - one salad only, please."
+        "description": "Choose a total of 4 side items - one salad only, please.",
+        "image":"../img/menu_imgs/pancakes.jpeg"
       }
 
+    ],
+
+    "Top_dishes":[
+      {
+        "price":"$10.40",
+        "name": "STEAK KABOB",
+        "description": "Marinated steak with onion, mushroom, tomato, red pepper and green pepper served on a bed of seasoned rice with your choice of one side.",
+        "image":"../img/menu_imgs/kabob.jpeg"
+      },
+      {
+        "price":"$10.40",
+        "name": "BISON PRIME RIBS ",
+        "description": "10 oz. prime rib with red wine reduction. Served with asparagus, heirloom tomatoes, and roasted potatoes.",
+        "image":"../img/menu_imgs/bison_ribs.jpeg"
+      },
+      {
+        "price":"$10.40",
+        "name": "PIZZA ",
+        "description": "A large disc of dough, covered with tomato paste, then either only grated cheese or pieces of mozzarella cheese, or other toppings like chopped vegetables, sausages, salami, etc. and cheese, which is then baked together in a very hot oven, then cut into slices so that one can eat it conveniently by taking one wedge-shaped slice at a time.",
+        "image":"../img/menu_imgs/pizza.jpeg"
+      },
+      {
+        "price":"$10.40",
+        "name": "CORNED BEEF SANDWICH",
+        "description": "This sandwich is like a cousin to the reuben. It's a cold sandwich of corned beef, topped with Russian dressing and coleslaw, on Jewish ry",
+        "image":"../img/menu_imgs/corned_beef.jpg"
+      }
     ]
 
   }

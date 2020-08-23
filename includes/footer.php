@@ -27,10 +27,11 @@
         </div>
     </footer>
 </div>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
 
-<script src="<?php if($page == 'secondary'){echo '../';} ?>scripts/script.js"></script>
+<script src="<?php echo $page == "secondary" ? "../" : null ?>scripts/script.js"></script>
 </body>
 
 </html>

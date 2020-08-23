@@ -1,4 +1,9 @@
-<?php $page = 'secondary'; ?>
+<?php 
+
+$page = 'secondary'; 
+$title = 'Reservation';
+
+?>
 
 
 <?php include '../includes/header.php' ?>
@@ -6,7 +11,7 @@
 
 <?php include '../includes/nav.php' ?>
 
-
+<?php include '../includes/secondary_header.php' ?>
 
 <section id="reservation_section">
   <div class="container main-content">
@@ -23,9 +28,9 @@
           
           
       </div>
-      <div class="col">
+      <div class="col ">
         <form>
-          <div class="form-row">
+          <div class="form-row ">
            <div class="form-group col-md-6">
              <label for="first_name">First Name:</label>
             <input class="form-control" type="text" name="first_name">

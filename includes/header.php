@@ -13,6 +13,8 @@
     
     
     <link rel="stylesheet" type="text/css" href="<?php if($page == 'secondary'){echo '../';}  ?>styles/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 
 <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:200,400&display=swap" rel="stylesheet">
     <title>El Restaurante</title>
