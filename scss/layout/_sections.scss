@@ -1,0 +1,79 @@
+#menu_link{
+    color: #e9ecef;
+    background-color: transparent;
+}
+
+#about{
+    &_section{
+        width: 100%;
+        padding: 2em;
+    }
+    &_p{
+        margin-top: 2em;
+        font-size: 30px;
+        color: black;
+    }
+
+    &_col{
+        margin: auto;
+        min-width: 60%;
+    }
+}
+
+
+
+
+#favorites{
+    width: 100%;
+    background-color: #14191c;
+    color: white;
+}
+
+
+
+#favorites,p{
+    font-size: 16px;
+}
+#fav_h2{
+    padding-top: 1em;
+}
+
+.fav_row{
+    justify-content: space-around;
+}
+
+.fav_col{
+    padding-top: 3em;
+    padding-bottom: 3em;
+    min-width: 300px;
+}
+
+
+
+
+
+#reserv_background{
+    background: green;
+}
+
+.main-content{
+    padding: 165px 55px;
+}
+
+
+
+
+
+
+
+
+#catering_container{
+    padding: 6em;
+}
+
+
+#catering_section{
+    padding: 2em;
+}
+
+

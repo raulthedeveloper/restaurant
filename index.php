@@ -61,7 +61,7 @@
       </div>
     </div>
 
-    <div class="row">
+    <div class="row mobile_hide">
       <div class="col-md-4 col-no-pad" data-aos="fade-right">
 
         <img class="small_pic fluid-img" src="https://images.pexels.com/photos/5938/food-salad-healthy-lunch.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
@@ -74,7 +74,7 @@
       </div>
     </div>
 
-    <div class="row">
+    <div class="row mobile_hide">
       <div class="col-md-6 col-no-pad" data-aos="fade-right">
         <img class="big_pic fluid-img" src="https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"></div>
       <div class="col-md-6 col-no-pad"  data-aos="fade-left"><img class="big_pic fluid-img" src="https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"></div>

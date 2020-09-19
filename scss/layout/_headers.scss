@@ -1,0 +1,140 @@
+#hero_section{
+    width: 100%;
+    height: 90vh;
+    background:linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.4)),url("../imgs/steak.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+
+    @media only screen and (max-height: $break-s){
+        &{
+            min-height: 500px;
+        }
+        .big_pic,.small_pic{
+            min-height: 400px
+        }
+    }
+}
+
+
+.title_h1{
+
+    font-size: 70px;
+
+    @media only screen and (max-width: $break-s){
+        &{
+            margin-top: 50px;
+           font-size: 55px;
+        }
+        
+    }
+}
+
+
+
+#main_header{
+    color: white;
+    font-size:50px;
+    position: relative;
+
+  
+}
+
+
+#header_row{
+
+    & button{
+
+        background-color: black;
+        color:white;
+        transition: all;
+        width: 150px;
+        transition-duration: 1000ms;
+
+        &:hover{
+            background-color:$hover_color;
+            color: black;
+            width: 200px;
+        }   
+    }
+}
+
+
+@media only screen and (min-height:611px){
+    #header_row{
+        position: relative;
+        top: 9em;
+    }
+}
+
+#secondary_header{
+    background:linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)),url('https://images.pexels.com/photos/374052/pexels-photo-374052.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+
+
+    @media only screen and (max-width: $break-s) {
+     
+        &{
+          height: 500px;
+        }
+      }
+}
+
+
+
+
+
+//Catering Header
+
+#catering_section_page {
+    background: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)), url('https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    & h1{
+        display: none;
+    }
+
+    &input{
+        width: 100%;
+    }
+
+
+    & #form_card{
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+    
+        @media only screen and (max-width: $break-l) {
+            &{
+                height: 500px;
+            }
+
+            & img{
+              display: none;
+            }
+            & h1{
+                display: inherit;
+               
+                margin-top: 100px;
+                font-size: 60px;
+            }
+
+            & #form_card{
+                display: none;
+            }
+          }
+    
+
+    
+
+    
+}
+
+
+

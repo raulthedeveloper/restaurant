@@ -6,6 +6,15 @@
   });
 
 
+  if (window.location !== window.parent.location) {
+    console.log("I am in a iframe")
+    document.querySelector("#back-to-port").style.display = "none";
+} else {
+    // The page is not in an iframe	
+    console.log("I am NOT in an iframe")
+}
+
+
 
 $(window).on("load",function() {
   $(window).scroll(function() {

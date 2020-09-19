@@ -1,26 +1,23 @@
-<?php 
-if($page == 'secondary'){
-  $nav = 'id="nav_secondary"';
-}elseif($page == 'primary'){
- $nav = 'id="nav_primary"';
-}elseif($page == 'catering'){
- $nav = 'id="nav_catering"';
-}
+<?php include $page == "primary" ? "functions/nav_links.php" : "../functions/nav_links.php" ;?>
 
 
-?>
-
-
-
-<nav class="nav navbar-expand-md ml-auto" <?php echo $nav; ?>>
-<button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span><span class="navbar-toggler-icon"></span></button>
-<div class="collapse navbar-collapse" id="navcol-1">
- <ul class="nav navbar-nav ml-auto">
-
-  <li class="nav-item" role="presentation"><a id="index" class="nav-link" href="../index.php">HOME</a></li>
-  <li class="nav-item" role="presentation"><a id="menu" class="nav-link" href="<?php if($page == 'secondary'){echo '../';} ?>pages/menu.php">MENU</a></li>
-  <li class="nav-item" role="presentation"><a id="catering" class="nav-link" href="<?php if($page == 'secondary'){echo '../';} ?>pages/catering.php">CATERING</a></li>
-  <li class="nav-item" role="presentation"><a id="catering" class="nav-link" href="<?php if($page == 'secondary'){echo '../';} ?>pages/reservation.php">RESERVATION</a></li>
- </ul>
- </div>
+<nav class="navbar navbar-expand-lg navbar-dark"  <?php nav_style(); ?>>
+  <a class="navbar-brand" href="<?php echo $page == 'secondary' ? '../index.php' : null ?>">Navbar</a>
+  <button class="navbar-toggler pb-sm-3" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-link text-light" href="<?php nav_links() ?>pages/menu.php">MENU</a>
+      <a class="nav-link text-light" href="<?php nav_links() ?>pages/catering.php">CATERING</a>
+      <a class="nav-link text-light"  href="<?php nav_links() ?>pages/reservation.php">RESERVATION</a>
+    </div>
+  </div>
 </nav>
+
+
+
+<?php include  $page == 'primary' ? '../floating_button.php' : '../../floating_button.php' ?>
+
+
+
