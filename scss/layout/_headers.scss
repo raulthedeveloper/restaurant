@@ -53,12 +53,19 @@
         width: 150px;
         transition-duration: 1000ms;
 
-        &:hover{
-            background-color:$hover_color;
-            color: black;
-            width: 200px;
-        }   
+
+        @media only screen and (min-width: $break-m) {
+     
+            &:hover{
+                background-color:$hover_color;
+                color: black;
+                width: 200px;
+            }   
+          }
+          
     }
+
+    
 }
 
 

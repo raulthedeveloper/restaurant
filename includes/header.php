@@ -13,9 +13,10 @@
     
     
     <link rel="stylesheet" type="text/css" href="<?php if($page == 'secondary'){echo '../';}  ?>styles/style.css">
-    <link rel="stylesheet" href="<?php echo $page =='secondary' ? '../' : null ?>../sites.css">
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css'>
 
 
 <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:200,400&display=swap" rel="stylesheet">

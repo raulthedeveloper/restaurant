@@ -17,7 +17,6 @@
 
 
 
-<?php include  $page == 'primary' ? '../floating_button.php' : '../../floating_button.php' ?>
-
+ 
 
 
