@@ -7,7 +7,7 @@
 <section id="catering_section_page">
   <?php include '../includes/nav.php' ?>
 
-  <h1 class="text-center  title_h1"><?php echo "Catering" ?></h1>
+  <h1 class="text-center text-light title_h1"><?php echo "Catering" ?></h1>
   <div class="container">
     <div class="row" id="catering_row">
       <div class="col-md-6" id="cat_hero_img">
@@ -77,9 +77,9 @@
         <div class="card">
           <div class="card-body text-center text-center">
             <div class="icon_container">
-              <img src="https://img.icons8.com/offices/50/000000/cup.png">
+            <img src="../imgs/teamwork.png" alt="">
               <h5 class="card-title">Corporate Events</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+              <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
             </div>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
               content.</p>
@@ -95,9 +95,9 @@
         <div class="card">
           <div class="card-body text-center">
             <div class="icon_container">
-              <img src="../imgs/icons8-room-service-64.png">
+              <img src="../imgs\cake.png">
               <h5 class="card-title">Weddings</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+              <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
             </div>
 
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
@@ -118,9 +118,9 @@
         <div class="card">
           <div class="card-body text-center">
             <div class="icon_container">
-              <img src="../imgs/icons8-dining-room-64.png">
+              <img src="../imgs\confetti.png">
               <h5 class="card-title">Party</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+              <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
             </div>
 
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
@@ -136,9 +136,9 @@
         <div class="card">
           <div class="card-body text-center">
             <div class="icon_container">
-              <img src="https://img.icons8.com/offices/64/000000/last-24-hours.png">
+              <img src="..\imgs\presents.png">
               <h5 class="card-title">Holiday</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+              <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
             </div>
 
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
@@ -151,7 +151,7 @@
 
 
 
-
+<div class="col-12 text-center">Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></div>
 
     </div>
 </section>
@@ -177,32 +177,14 @@
 <section id="catering_booking">
   <div class="container-fluid">
   <div class="row">
-  <div class="col-md-6 bg-light col-sm-12  p-3 ">
+  <div class="col-md-6 bg-light col-sm-12 text-box">
       <h2>Book Your Event Today</h2>
       <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque a ea qui natus voluptatem earum assumenda
         molestiae nobis minima quasi est ipsa suscipit vero voluptatum, atque, sapiente ipsam facilis eaque.</p>
     </div>
 
     <div class="col-md-6 col-sm-12 ">
-    <form class="p-4" >
-  <div class="form-row mb-5 ">
-    <div class="col">
-      <input type="text" class="form-control" placeholder="First name">
-    </div>
-    <div class="col">
-      <input type="text" class="form-control" placeholder="Last name">
-    </div>
-  </div>
-  <div class="form-row">
-    <div class="col">
-      <input type="text" class="form-control" placeholder="First name">
-    </div>
-    <div class="col">
-      <input type="text" class="form-control" placeholder="Last name">
-    </div>
-  </div>
-  
-</form>
+    <?php include '../includes/form.php' ?>
 
 
     </div>

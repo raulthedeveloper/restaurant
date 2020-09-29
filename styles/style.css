@@ -72,6 +72,10 @@ a {
   letter-spacing: 4px;
 }
 
+.text-box {
+  padding: 60px;
+}
+
 #hero_section {
   width: 100%;
   height: 90vh;
@@ -85,13 +89,15 @@ a {
   #hero_section {
     min-height: 500px;
   }
-  #hero_section .big_pic, #hero_section .small_pic {
+  #hero_section .big_pic,
+#hero_section .small_pic {
     min-height: 400px;
   }
 }
 
 .title_h1 {
-  font-size: 70px;
+  font-size: 100px;
+  margin-top: 50px;
 }
 @media only screen and (max-width: 576px) {
   .title_h1 {
@@ -117,7 +123,6 @@ a {
   #header_row button:hover {
     background-color: orange;
     color: black;
-    width: 200px;
   }
 }
 
@@ -131,7 +136,10 @@ a {
   background: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)), url("https://images.pexels.com/photos/374052/pexels-photo-374052.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   background-size: cover;
   background-position: center;
-  height: 500px;
+  height: 600px;
+}
+#secondary_header h3 {
+  font-weight: 400;
 }
 @media only screen and (max-width: 576px) {
   #secondary_header {
@@ -169,6 +177,14 @@ a {
   }
   #catering_section_page #form_card {
     display: none;
+  }
+}
+@media only screen and (max-width: 992px) {
+  #catering_section_page {
+    background: linear-gradient(rgba(20, 20, 20, 0.6), rgba(20, 20, 20, 0.2)), url("../imgs/catering_mobile_img.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 }
 
@@ -222,9 +238,19 @@ a {
 .main-content {
   padding: 165px 55px;
 }
+@media only screen and (max-width: 576px) {
+  .main-content {
+    padding: 65px 10px;
+  }
+}
 
 #catering_container {
   padding: 6em;
+}
+@media only screen and (max-width: 576px) {
+  #catering_container {
+    padding: 1em;
+  }
 }
 
 #catering_section {
@@ -249,6 +275,9 @@ a {
   }
 }
 
+#catering_testimonial {
+  padding: 75px;
+}
 #catering_testimonial h2 {
   color: #333;
   text-align: center;
@@ -268,6 +297,11 @@ a {
   left: 0;
   right: 0;
   bottom: -10px;
+}
+@media only screen and (max-width: 576px) {
+  #catering_testimonial {
+    padding: 10px;
+  }
 }
 
 .footer-dark {
@@ -465,6 +499,62 @@ a {
   width: 100%;
 }
 
+#catering_booking body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+#catering_booking .formBox {
+  padding: 50px;
+}
+#catering_booking .formBox h1 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  font-size: 32px;
+}
+#catering_booking .inputBox {
+  position: relative;
+  box-sizing: border-box;
+  margin-bottom: 50px;
+}
+#catering_booking .inputBox .inputText {
+  position: absolute;
+  font-size: 18px;
+  line-height: 50px;
+  transition: 0.5s;
+  opacity: 0.5;
+}
+#catering_booking .inputBox .input {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 24px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+#catering_booking .focus .inputText {
+  transform: translateY(-30px);
+  font-size: 18px;
+  opacity: 1;
+  color: #00bcd4;
+}
+#catering_booking textarea {
+  height: 100px !important;
+}
+#catering_booking .button {
+  width: 100%;
+  height: 50px;
+  border: none;
+  outline: none;
+  background: #dc3545;
+  color: #fff;
+}
+
 .slideRight {
   animation-name: slideUp;
   -webkit-animation-name: slideUp;
@@ -487,6 +577,9 @@ button {
   width: 12em;
   font-size: 13px;
   background: #ffffffcc;
+}
+button:hover {
+  text-decoration: none;
 }
 
 .col-no-pad {

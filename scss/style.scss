@@ -4,7 +4,8 @@
         'layout/headers',
         'layout/sections',
         'layout/footer',
-        'components/carousel'
+        'components/carousel',
+        'components/form'
         ;
 
 
@@ -45,7 +46,12 @@
         width: 12em;
         font-size: 13px;
         background: #ffffffcc;
+        
+        &:hover{
+            text-decoration: none;
+        }
     }
+    
     
     
     

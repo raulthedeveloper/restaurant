@@ -1,5 +1,5 @@
 
-
+<?php  include $page === "secondary" ? "../functions/tagline.php" : "functions/tagline.php"?>
 
 <!doctype html>
 <html lang="en">
@@ -17,9 +17,10 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css'>
-
+    
+    
 
 <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:200,400&display=swap" rel="stylesheet">
-    <title>El Restaurante</title>
+    <title>El Restaurante </title>
   </head>
   <body>

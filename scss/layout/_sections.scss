@@ -58,6 +58,17 @@
 
 .main-content{
     padding: 165px 55px;
+
+
+    @media only screen and (max-width: $break-s) {
+     
+        &{
+         
+            padding: 65px 10px;
+           
+        }
+
+        } 
 }
 
 
@@ -69,6 +80,16 @@
 
 #catering_container{
     padding: 6em;
+
+    @media only screen and (max-width: $break-s) {
+     
+        &{
+         
+            padding: 1em;
+           
+        }
+
+        }  
 }
 
 
@@ -102,7 +123,12 @@
         }   
       }
 
+
+
+
       #catering_testimonial{
+
+        padding: 75px;
 
         & h2 {
             color: #333;
@@ -125,12 +151,18 @@
             right: 0;
             bottom: -10px
         }
+
+        @media only screen and (max-width: $break-s) {
+     
+            & {
+                padding:10px;
+               
+            }
+    
+            }  
         
         
       }
 
 
-      #catering_booking{
-          
-      }
-
+    

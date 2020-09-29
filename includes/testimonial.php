@@ -8,31 +8,31 @@
           <div class="carousel-inner">
             <div class="item carousel-item active">
               <div class="img-box"><img
-                  src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1558758981/male-2634974_640.jpg" alt=""></div>
+                  src="../imgs/beth_headshot.jpg" alt=""></div>
               <p class="testimonial">Phasellus vitae suscipit justo. Mauris pharetra feugiat ante id lacinia. Etiam
                 faucibus mauris id tempor egestas. Duis luctus turpis at accumsan tincidunt. Phasellus risus risus,
                 volutpat vel tellus ac, tincidunt fringilla massa. Etiam hendrerit dolor eget rutrum.</p>
-              <p class="overview"><b>Paula Wilsons</b>Seo Analyst </p>
+              <p class="overview"><b>Beth </b> </p>
               <div class="star-rating"> </div>
             </div>
             <div class="item carousel-item">
               <div class="img-box"><img
-                  src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1558758980/people-875617_1280.jpg" alt="">
+                  src="../imgs\jessica_headshot.jpg" alt="">
               </div>
               <p class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius
                 quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum idac
                 nisl bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet.</p>
-              <p class="overview"><b>Paula Wilson</b>Media Analyst </p>
+              <p class="overview"><b>Jessica Wilson</b> </p>
               <div class="star-rating"> </div>
             </div>
             <div class="item carousel-item">
               <div class="img-box"><img
-                  src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1558758980/portrait-1287413_640.jpg" alt="">
+                  src="../imgs/jeff_headshot.jpg" alt="">
               </div>
               <p class="testimonial">Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget nisi a mi
                 suscipit tincidunt. Utmtc tempus dictum risus. Pellentesque viverra sagittis quam at mattis. Suspendisse
                 potenti. Aliquam sit amet gravida nibh, facilisis gravida odio. Phasellus auctor velit.</p>
-              <p class="overview"><b>Antonio Moreno</b>Web Developer</p>
+              <p class="overview"><b>Jeff Moreno</b></p>
               <div class="star-rating"> </div>
             </div>
           </div> <!-- Carousel controls --> <a class="carousel-control left carousel-control-prev" href="#myCarousel"
