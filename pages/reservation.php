@@ -16,7 +16,7 @@ $title = 'Reservation';
 <section id="reservation_section">
   <div class="container main-content">
     <div class="row">
-      <div class="col" id="reserv_backround">
+      <div class="col-12" id="reserv_backround">
        
         <h2 class="text-dark">Resevations</h2>
         <p class="text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod

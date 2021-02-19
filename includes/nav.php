@@ -2,7 +2,7 @@
 
 
 <nav class="navbar navbar-expand-lg navbar-dark"  <?php nav_style(); ?>>
-  <a class="navbar-brand" href="<?php echo $page == 'secondary' ? '../index.php' : null ?>">EL Restaurante</a>
+  <a class="navbar-brand" style="display:initial" href="<?php echo $page == 'secondary' ? '../index.php' : null ?>">EL Restaurante</a>
   <button class="navbar-toggler pb-sm-3" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -14,6 +14,8 @@
     </div>
   </div>
 </nav>
+
+
 
 
 
