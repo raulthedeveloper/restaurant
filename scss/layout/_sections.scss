@@ -57,7 +57,10 @@
 }
 
 .main-content{
-    padding: 165px 55px;
+    padding: {
+        top: 70px;
+        bottom: 70px;
+    }
 
 
     @media only screen and (max-width: $break-s) {

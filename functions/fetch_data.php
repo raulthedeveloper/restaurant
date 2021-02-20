@@ -1,6 +1,6 @@
 <?php
 
-$restaurant_json = file_get_contents($page != 'primary' ? '../database/api.json' : 'database/api.json');
+$restaurant_json = file_get_contents($path == 'pages' ? '../database/api.json' : 'database/api.json');
 $json = json_decode($restaurant_json,true);
 
 function getMeal($meals){

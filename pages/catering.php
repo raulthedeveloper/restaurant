@@ -1,4 +1,4 @@
-<?php $page = 'secondary'; ?>
+
 
 <?php include '../includes/header.php'; ?>
 
@@ -7,7 +7,7 @@
 <section id="catering_section_page">
   <?php include '../includes/nav.php' ?>
 
-  <h1 class="text-center text-light title_h1"><?php echo "Catering" ?></h1>
+  <h1 class="text-center text-light title_h1">Catering</h1>
   <div class="container">
     <div class="row" id="catering_row">
       <div class="col-md-6" id="cat_hero_img">

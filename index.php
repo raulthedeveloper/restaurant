@@ -1,8 +1,17 @@
-<?php $page = 'primary'; ?>
-<?php include 'functions/fetch_data.php'?>
+
 
 
 <?php include 'includes/header.php' ?>
+
+
+<?php 
+
+
+include 'functions/fetch_data.php';
+
+?>
+
+
 <section id="hero_section">
 
   <?php include 'includes/nav.php' ?>

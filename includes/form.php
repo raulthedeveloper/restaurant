@@ -9,15 +9,13 @@
         <div class="row">
             <div class="col-sm-6">
                 <div class="inputBox ">
-                    <div class="inputText">First Name</div>
-                    <input type="text" name="" class="input">
+                    <input type="text" name="first_name" class="input" placeholder="First Name">
                 </div>
             </div>
 
             <div class="col-sm-6">
                 <div class="inputBox">
-                    <div class="inputText">Last Name</div>
-                    <input type="text" name="" class="input">
+                    <input type="text" name="last_name" class="input" placeholder="Last Name">
                 </div>
             </div>
         </div>
@@ -25,15 +23,13 @@
         <div class="row">
             <div class="col-sm-6">
                 <div class="inputBox">
-                    <div class="inputText">Email</div>
-                    <input type="text" name="" class="input">
+                    <input type="text" name="email" class="input" placeholder="Email">
                 </div>
             </div>
 
             <div class="col-sm-6">
                 <div class="inputBox">
-                    <div class="inputText">Mobile</div>
-                    <input type="text" name="" class="input">
+                    <input type="text" name="mobile" class="input" placeholder="Mobile">
                 </div>
             </div>
         </div>
@@ -41,8 +37,7 @@
         <div class="row">
             <div class="col-sm-12">
                 <div class="inputBox">
-                    <div class="inputText">Email</div>
-                    <textarea class="input"></textarea>
+                    <textarea class="input" name="message" placeholder="Message"></textarea>
                 </div>
             </div>
         </div>

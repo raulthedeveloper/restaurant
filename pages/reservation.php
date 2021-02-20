@@ -1,6 +1,5 @@
 <?php 
 
-$page = 'secondary'; 
 $title = 'Reservation';
 
 ?>
@@ -75,7 +74,6 @@ $title = 'Reservation';
           <button type="submit" class="btn btn-dark">Submit</button>
           
         </form>
-        <h4 style="color:green; padding-top:10px; display:inherit;">Your reservations is set for 8:00pm on Jan 15.</h4>
       </div>
       
       

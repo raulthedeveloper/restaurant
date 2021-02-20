@@ -1,18 +1,18 @@
-
+<?php include '../includes/header.php'; ?>
 <?php 
-$page = 'secondary'; 
+// Sets title in secondary header
 $title = 'Menu';
-
 ?>
 
 
-<?php include '../includes/header.php'; ?>
+
 
 <?php include '../includes/nav.php' ?>
 
 <?php include '../functions/fetch_data.php' ?>
 
 <?php include '../includes/secondary_header.php' ?>
+
 
 
 <div class="container main-content">
